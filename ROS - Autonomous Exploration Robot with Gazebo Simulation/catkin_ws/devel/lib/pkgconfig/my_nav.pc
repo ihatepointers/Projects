@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/devel
+
+Name: my_nav
+Description: Description of my_nav
+Version: 0.3.3
+Cflags: 
+Libs: -L/home/serdar/catkin_ws/devel/lib 
+Requires: 

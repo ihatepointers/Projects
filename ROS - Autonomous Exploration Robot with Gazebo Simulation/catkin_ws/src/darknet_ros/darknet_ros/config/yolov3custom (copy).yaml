@@ -1,0 +1,23 @@
+yolo_model:
+
+  config_file:
+    name: yolov3custom.cfg
+  weight_file:
+    name: yolov3custom.weights
+  threshold:
+    value: 0.4
+  detection_classes:
+    names:
+      - QR
+      - FireExtinguisher
+      - Barrel
+      - HazmatOxidizer
+      - HazmatRadioactive
+      - HazmatInhalation
+      - HazmatNonFlammableGas
+      - HazmatInfectiousSubstance
+      - HazmatCorrosive
+      - HazmatExplosive
+      - HazmatSpontCombustible
+      - FP_K
+      - FP_S

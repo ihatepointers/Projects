@@ -1,0 +1,2 @@
+darknet_ros/darknet_ros:darknet_ros/darknet_ros_msgs:explore_lite:frontier_exploration:hector_nist_arenas_gazebo/hector_nist_arena_designer:hector_nist_arenas_gazebo/hector_nist_arena_elements:hector_nist_arenas_gazebo/hector_nist_arena_worlds:my_nav:pioneer3at_demo/p3at_description:pioneer3at_demo/p3at_gazebo:pioneer3at_demo/p3at_plugin:qr_detector:rtg_proje:slam_gmapping/gmapping:slam_gmapping/slam_gmapping
+-DCMAKE_BUILD_TYPE=Release -DCATKIN_DEVEL_PREFIX=/home/serdar/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/serdar/catkin_ws/install -G Unix Makefiles

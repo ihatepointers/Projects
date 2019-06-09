@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/install
+
+Name: p3at_plugin
+Description: Description of p3at_plugin
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/serdar/catkin_ws/install/lib 
+Requires: roscpp

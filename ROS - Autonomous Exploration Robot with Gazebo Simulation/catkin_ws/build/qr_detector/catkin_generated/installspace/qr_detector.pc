@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/install
+
+Name: qr_detector
+Description: Description of qr_detector
+Version: 1.0.0
+Cflags: -I/home/serdar/catkin_ws/install/include
+Libs: -L/home/serdar/catkin_ws/install/lib -lqr_detector_nodelet
+Requires: roscpp nodelet sensor_msgs cv_bridge image_transport

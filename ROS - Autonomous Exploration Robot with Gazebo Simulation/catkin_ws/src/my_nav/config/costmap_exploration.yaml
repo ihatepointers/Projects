@@ -1,0 +1,20 @@
+track_unknown_space: true
+rolling_window: false
+global_frame: /map
+robot_base_frame: robot/base_link
+inflation_radius: 0.05
+
+plugins: 
+- {name: external,            type: "costmap_2d::StaticLayer"}
+- {name: explore_boundary,    type: "frontier_exploration::BoundedExploreLayer"}
+#Can disable sensor layer if gmapping is fast enough to update scans
+- {name: obstacles_laser,     type: "costmap_2d::ObstacleLayer"}
+- {name: inflation,           type: "costmap_2d::InflationLayer"}
+
+explore_boundary:
+  resize_to_boundary: false
+  frontier_travel_point: middle
+  #set to false for gmapping, true if re-exploring a known area
+  explore_clear_space: false
+inflation: {cost_scaling_factor: 1.0, enabled: true, inflate_unknown: false, inflation_radius: 0.30}
+

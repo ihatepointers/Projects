@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/devel
+
+Name: p3at_gazebo
+Description: Description of p3at_gazebo
+Version: 1.0.0
+Cflags: 
+Libs: -L/home/serdar/catkin_ws/devel/lib 
+Requires: 

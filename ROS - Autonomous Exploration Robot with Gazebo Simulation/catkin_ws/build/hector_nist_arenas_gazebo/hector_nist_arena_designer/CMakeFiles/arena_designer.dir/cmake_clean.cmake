@@ -1,0 +1,43 @@
+file(REMOVE_RECURSE
+  "src/model/moc_arena.cxx"
+  "src/model/moc_arenaelement.cxx"
+  "src/ui/moc_arenascene.cxx"
+  "src/ui/moc_arenaelementtypescene.cxx"
+  "src/ui/moc_arenaview.cxx"
+  "src/ui/moc_arenasceneelement.cxx"
+  "src/ui/moc_editor.cxx"
+  "src/ui/moc_arenacontroller.cxx"
+  "src/ui/moc_metainfobox.cxx"
+  "ui_editor.h"
+  "qrc_resources.cxx"
+  "CMakeFiles/arena_designer.dir/src/model/arena.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/model/arenaelement.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/model/arenaelementtype.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/model/arenaelementtyperegistry.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/model/xmlloadingexception.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/arenaelementtypescene.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/arenascene.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/arenaview.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/arenasceneelement.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/editor.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/arenacontroller.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/ui/metainfobox.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/main.cpp.o"
+  "CMakeFiles/arena_designer.dir/src/model/moc_arena.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/model/moc_arenaelement.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_arenascene.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_arenaelementtypescene.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_arenaview.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_arenasceneelement.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_editor.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_arenacontroller.cxx.o"
+  "CMakeFiles/arena_designer.dir/src/ui/moc_metainfobox.cxx.o"
+  "CMakeFiles/arena_designer.dir/qrc_resources.cxx.o"
+  "/home/serdar/catkin_ws/devel/lib/hector_nist_arena_designer/arena_designer.pdb"
+  "/home/serdar/catkin_ws/devel/lib/hector_nist_arena_designer/arena_designer"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/arena_designer.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

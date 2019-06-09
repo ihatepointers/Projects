@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+  <master auto="start"/>
+  <param name="/use_sim_time" value="true"/>
+  <include file="$(find my_nav)/config/move_base.xml"/>
+  <param name="inflation_radius" value="0.15" />
+  <include file="$(find my_nav)/launch/exploration.launch"/>
+</launch>

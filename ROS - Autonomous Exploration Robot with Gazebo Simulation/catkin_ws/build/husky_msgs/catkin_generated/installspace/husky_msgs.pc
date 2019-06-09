@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/install
+
+Name: husky_msgs
+Description: Description of husky_msgs
+Version: 0.3.3
+Cflags: -I/home/serdar/catkin_ws/install/include
+Libs: -L/home/serdar/catkin_ws/install/lib 
+Requires: std_msgs message_runtime

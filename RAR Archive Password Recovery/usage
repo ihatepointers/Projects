@@ -1,0 +1,3 @@
+mpiexec -quite -np 8 ./main <filename>.rar n Aa0
+A-> upper case, a->lower case, 0->numbers
+mpic++ main.c - o main

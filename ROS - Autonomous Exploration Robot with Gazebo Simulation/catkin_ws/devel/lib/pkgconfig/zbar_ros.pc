@@ -1,0 +1,8 @@
+prefix=/home/serdar/catkin_ws/devel
+
+Name: zbar_ros
+Description: Description of zbar_ros
+Version: 0.1.0
+Cflags: -I/home/serdar/catkin_ws/src/zbar_ros/include
+Libs: -L/home/serdar/catkin_ws/devel/lib -lbarcode_reader_nodelet
+Requires: nodelet cv_bridge roscpp
