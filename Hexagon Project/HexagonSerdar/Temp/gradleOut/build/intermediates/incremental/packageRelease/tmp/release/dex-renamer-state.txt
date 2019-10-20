@@ -1,0 +1,4 @@
+#Sun Oct 20 21:17:44 EET 2019
+base.0=D\:\\Program Files\\Unity\\projects\\HexagonSerdar\\Temp\\gradleOut\\build\\intermediates\\transforms\\dexMerger\\release\\0
+path.0=classes.dex
+renamed.0=classes.dex
