@@ -1,8 +1,0 @@
-prefix=/home/serdar/catkin_ws/install
-
-Name: rtg_proje
-Description: Description of rtg_proje
-Version: 0.0.0
-Cflags: 
-Libs: -L/home/serdar/catkin_ws/install/lib 
-Requires: actionlib_msgs geometry_msgs sensor_msgs message_runtime std_msgs

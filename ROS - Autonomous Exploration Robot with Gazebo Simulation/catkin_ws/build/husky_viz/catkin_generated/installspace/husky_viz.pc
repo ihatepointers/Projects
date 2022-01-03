@@ -1,8 +1,0 @@
-prefix=/home/serdar/catkin_ws/install
-
-Name: husky_viz
-Description: Description of husky_viz
-Version: 0.3.3
-Cflags: 
-Libs: -L/home/serdar/catkin_ws/install/lib 
-Requires: 

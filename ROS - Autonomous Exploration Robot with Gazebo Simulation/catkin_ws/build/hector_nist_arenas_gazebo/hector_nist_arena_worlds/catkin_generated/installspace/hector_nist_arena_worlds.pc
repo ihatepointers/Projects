@@ -1,8 +1,0 @@
-prefix=/home/serdar/catkin_ws/install
-
-Name: hector_nist_arena_worlds
-Description: Description of hector_nist_arena_worlds
-Version: 0.1.0
-Cflags: 
-Libs: -L/home/serdar/catkin_ws/install/lib 
-Requires: hector_nist_arena_elements
