@@ -181,8 +181,8 @@ package-lock.json text -diff
 *.yaml            text
 *.yml             text
 browserslist      text
-Makefile          text
-makefile          text
+Makefile          linguist-generated=true
+makefile          linguist-generated=true
 
 # Heroku
 Procfile          text
